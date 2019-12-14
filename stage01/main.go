@@ -1,4 +1,4 @@
-package stage01
+package main
 
 import (
 	"fmt"
@@ -46,4 +46,8 @@ func Start() {
 
 	// Function 3:
 	fmt.Println(namedReturn(1986))
+}
+
+func main() {
+	Start()
 }
