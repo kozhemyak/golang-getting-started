@@ -9,6 +9,9 @@ import (
 var maxCount, minCount int
 var isVisible, isCreated bool = true, false
 
+// take the type of the initializer
+var tryCount, isDone, preciseNumber = 13, false, 3.14
+
 // my first function
 func add(x int, y int) int {
 	return x + y
@@ -22,12 +25,17 @@ func multipleVars(x, y string) (string, string) {
 
 // Named return values
 func namedReturn(sum int) (x, y int) {
-	// function  level statement "var"
-	var maximum int = 15
+	// function level statement "var"
+	var maximumOne int = 15
 
-	sum = maximum
+	// the := short assignment statement, same
+	maximumTwo := 15
+
+	sum = maximumOne
+	sum = maximumTwo
 
 	x, y = (5 + sum), (10 + sum)
+
 	// "naked" return
 	return
 }
