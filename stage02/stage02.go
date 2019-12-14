@@ -1,4 +1,4 @@
-package main
+package stage02
 
 import (
 	"fmt"
@@ -30,7 +30,8 @@ var (
 	Complex complex128 = cmplx.Sqrt(-5 + 12i)
 )
 
-func main() {
+// Run all this calculations
+func Start() {
 	fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
 	fmt.Printf("Type: %T Value: %v\n", Maint, Maint)
 	fmt.Printf("Type: %T Value: %v\n", Complex, Complex)
