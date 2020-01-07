@@ -3,6 +3,10 @@
 
 My learning process of GoLang.
 
+## Must read
+
+- https://blog.golang.org/defer-panic-and-recover
+
 ## Questions
 
 The question list of points that I should either have a look into or get detailed deep-dive on.
