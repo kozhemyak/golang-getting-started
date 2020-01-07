@@ -5,7 +5,9 @@ My learning process of GoLang.
 
 ## Must read
 
-- https://blog.golang.org/defer-panic-and-recover
+- [Learn "builtin" package](https://golang.org/pkg/builtin/#append)
+- [Go Slices: usage and internals](https://blog.golang.org/go-slices-usage-and-internals)
+- [Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)
 
 ## Questions
 
